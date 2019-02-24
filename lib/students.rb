@@ -3,7 +3,7 @@
 def highest_student_gpa
   "SELECT gpa
   from STUDENTS
-  ORDER BY gpa
+  ORDER BY gpa DESC
   LIMIT 1"
 end
 
